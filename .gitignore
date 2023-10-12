@@ -1,5 +1,8 @@
 # Igonre the .idea directory
 .idea/
 
+.env
+
 # Ignore the venv directory
 venv/
+

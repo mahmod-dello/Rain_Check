@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 from twilio.rest import Client
 
-load_dotenv("path/to/.env")  # loading the environment variables file
+load_dotenv("./.env")  # loading the environment variables file
 
 # -------------------------------- Constants -------------------------------- #
 
