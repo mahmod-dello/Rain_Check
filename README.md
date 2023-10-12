@@ -12,7 +12,7 @@ This project sends an SMS alert to the user in the event of bad weather, such as
 
 To install the required packages from the command line,
 execute the following command as it contains all the packages
-that have been used in the [requirements.txt]("requirements.txt") file.
+that have been used in the [requirements.txt](./requirements.txt) file.
 
 ```pip install -r requirements.txt```
 ## APIs
