@@ -43,9 +43,7 @@ if will_rain:
     client = Client(username=ACC_SID, password=AUTH_TOKEN)
     message = client.messages.create(
         body="It's going to rain today. Bring an umbrella with you ☔.",
-        from_="",
-        to=""
+        from_=os.getenv("MY_PHONE_NUM"),
+        to=os.getenv("TWILIO_NUM")
     )
-    # from_= your twilio phone number.
-    # to= your actual phone number.
     print(message.status)  # queued mean sent successfully
